@@ -1,0 +1,16 @@
+{
+  "name": "privacy-pump-arcium-example",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --import tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "policy": "node scripts/policy-scan.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "tsx": "^4.19.4",
+    "typescript": "^5.7.3"
+  }
+}
