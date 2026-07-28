@@ -1,0 +1,8 @@
+{
+  "name": "privacy-pump-arcium-example",
+  "description": "Minimal educational Arcium private-authorization example for Solana developers.",
+  "maturity": "Educational devnet example",
+  "network": "Localnet and devnet",
+  "topics": ["privacy-pump", "solana", "anchor", "arcium", "mpc", "rust"],
+  "visibility": "public-after-verification"
+}
